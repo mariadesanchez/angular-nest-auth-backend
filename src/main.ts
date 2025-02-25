@@ -18,7 +18,7 @@ async function bootstrap() {
   const PORT = process.env.PORT ?? 3000;
   //si existe la variable de entorno PORT en .env le asignara
   //ese valor del puerto sino tomara el valor 3000
-    
+  console.log('App corriendo en puerto Correctamente')
   console.log(`App corriendo en puerto: ${ PORT } `)
 
   await app.listen( PORT );
